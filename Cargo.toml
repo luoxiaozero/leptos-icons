@@ -13,7 +13,7 @@ categories = ["web-programming"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-leptos = { version = "0.3.0", default-features = false }
+leptos = { git = "https://github.com/leptos-rs/leptos.git", rev = "3d75c71", default-features = false }
 tracing = "0.1"
 icondata = "0.0.2"
 
@@ -5887,7 +5887,9 @@ FaCreativeCommonsPdBrands = ["icondata/FaCreativeCommonsPdBrands"]
 FaCreativeCommonsRemixBrands = ["icondata/FaCreativeCommonsRemixBrands"]
 FaCreativeCommonsSaBrands = ["icondata/FaCreativeCommonsSaBrands"]
 FaCreativeCommonsSamplingBrands = ["icondata/FaCreativeCommonsSamplingBrands"]
-FaCreativeCommonsSamplingPlusBrands = ["icondata/FaCreativeCommonsSamplingPlusBrands"]
+FaCreativeCommonsSamplingPlusBrands = [
+    "icondata/FaCreativeCommonsSamplingPlusBrands",
+]
 FaCreativeCommonsShareBrands = ["icondata/FaCreativeCommonsShareBrands"]
 FaCreativeCommonsZeroBrands = ["icondata/FaCreativeCommonsZeroBrands"]
 FaCreditCardRegular = ["icondata/FaCreditCardRegular"]
@@ -5957,7 +5959,9 @@ FaDongSignSolid = ["icondata/FaDongSignSolid"]
 FaDoorClosedSolid = ["icondata/FaDoorClosedSolid"]
 FaDoorOpenSolid = ["icondata/FaDoorOpenSolid"]
 FaDoveSolid = ["icondata/FaDoveSolid"]
-FaDownLeftAndUpRightToCenterSolid = ["icondata/FaDownLeftAndUpRightToCenterSolid"]
+FaDownLeftAndUpRightToCenterSolid = [
+    "icondata/FaDownLeftAndUpRightToCenterSolid",
+]
 FaDownLongSolid = ["icondata/FaDownLongSolid"]
 FaDownloadSolid = ["icondata/FaDownloadSolid"]
 FaDraft2digitalBrands = ["icondata/FaDraft2digitalBrands"]
@@ -6397,12 +6401,16 @@ FaHouseCircleXmarkSolid = ["icondata/FaHouseCircleXmarkSolid"]
 FaHouseCrackSolid = ["icondata/FaHouseCrackSolid"]
 FaHouseFireSolid = ["icondata/FaHouseFireSolid"]
 FaHouseFlagSolid = ["icondata/FaHouseFlagSolid"]
-FaHouseFloodWaterCircleArrowRightSolid = ["icondata/FaHouseFloodWaterCircleArrowRightSolid"]
+FaHouseFloodWaterCircleArrowRightSolid = [
+    "icondata/FaHouseFloodWaterCircleArrowRightSolid",
+]
 FaHouseFloodWaterSolid = ["icondata/FaHouseFloodWaterSolid"]
 FaHouseLaptopSolid = ["icondata/FaHouseLaptopSolid"]
 FaHouseLockSolid = ["icondata/FaHouseLockSolid"]
 FaHouseMedicalCircleCheckSolid = ["icondata/FaHouseMedicalCircleCheckSolid"]
-FaHouseMedicalCircleExclamationSolid = ["icondata/FaHouseMedicalCircleExclamationSolid"]
+FaHouseMedicalCircleExclamationSolid = [
+    "icondata/FaHouseMedicalCircleExclamationSolid",
+]
 FaHouseMedicalCircleXmarkSolid = ["icondata/FaHouseMedicalCircleXmarkSolid"]
 FaHouseMedicalFlagSolid = ["icondata/FaHouseMedicalFlagSolid"]
 FaHouseMedicalSolid = ["icondata/FaHouseMedicalSolid"]
@@ -6759,9 +6767,13 @@ FaPersonSnowboardingSolid = ["icondata/FaPersonSnowboardingSolid"]
 FaPersonSolid = ["icondata/FaPersonSolid"]
 FaPersonSwimmingSolid = ["icondata/FaPersonSwimmingSolid"]
 FaPersonThroughWindowSolid = ["icondata/FaPersonThroughWindowSolid"]
-FaPersonWalkingArrowLoopLeftSolid = ["icondata/FaPersonWalkingArrowLoopLeftSolid"]
+FaPersonWalkingArrowLoopLeftSolid = [
+    "icondata/FaPersonWalkingArrowLoopLeftSolid",
+]
 FaPersonWalkingArrowRightSolid = ["icondata/FaPersonWalkingArrowRightSolid"]
-FaPersonWalkingDashedLineArrowRightSolid = ["icondata/FaPersonWalkingDashedLineArrowRightSolid"]
+FaPersonWalkingDashedLineArrowRightSolid = [
+    "icondata/FaPersonWalkingDashedLineArrowRightSolid",
+]
 FaPersonWalkingLuggageSolid = ["icondata/FaPersonWalkingLuggageSolid"]
 FaPersonWalkingSolid = ["icondata/FaPersonWalkingSolid"]
 FaPersonWalkingWithCaneSolid = ["icondata/FaPersonWalkingWithCaneSolid"]
@@ -7258,7 +7270,9 @@ FaUntappdBrands = ["icondata/FaUntappdBrands"]
 FaUpDownLeftRightSolid = ["icondata/FaUpDownLeftRightSolid"]
 FaUpDownSolid = ["icondata/FaUpDownSolid"]
 FaUpLongSolid = ["icondata/FaUpLongSolid"]
-FaUpRightAndDownLeftFromCenterSolid = ["icondata/FaUpRightAndDownLeftFromCenterSolid"]
+FaUpRightAndDownLeftFromCenterSolid = [
+    "icondata/FaUpRightAndDownLeftFromCenterSolid",
+]
 FaUpRightFromSquareSolid = ["icondata/FaUpRightFromSquareSolid"]
 FaUploadSolid = ["icondata/FaUploadSolid"]
 FaUpsBrands = ["icondata/FaUpsBrands"]
@@ -7722,7 +7736,9 @@ HiArrowDownLeftSolidMd = ["icondata/HiArrowDownLeftSolidMd"]
 HiArrowDownOnSquareOutlineLg = ["icondata/HiArrowDownOnSquareOutlineLg"]
 HiArrowDownOnSquareSolidLg = ["icondata/HiArrowDownOnSquareSolidLg"]
 HiArrowDownOnSquareSolidMd = ["icondata/HiArrowDownOnSquareSolidMd"]
-HiArrowDownOnSquareStackOutlineLg = ["icondata/HiArrowDownOnSquareStackOutlineLg"]
+HiArrowDownOnSquareStackOutlineLg = [
+    "icondata/HiArrowDownOnSquareStackOutlineLg",
+]
 HiArrowDownOnSquareStackSolidLg = ["icondata/HiArrowDownOnSquareStackSolidLg"]
 HiArrowDownOnSquareStackSolidMd = ["icondata/HiArrowDownOnSquareStackSolidMd"]
 HiArrowDownOutlineLg = ["icondata/HiArrowDownOutlineLg"]
@@ -7756,7 +7772,9 @@ HiArrowLongUpOutlineLg = ["icondata/HiArrowLongUpOutlineLg"]
 HiArrowLongUpSolidLg = ["icondata/HiArrowLongUpSolidLg"]
 HiArrowLongUpSolidMd = ["icondata/HiArrowLongUpSolidMd"]
 HiArrowPathOutlineLg = ["icondata/HiArrowPathOutlineLg"]
-HiArrowPathRoundedSquareOutlineLg = ["icondata/HiArrowPathRoundedSquareOutlineLg"]
+HiArrowPathRoundedSquareOutlineLg = [
+    "icondata/HiArrowPathRoundedSquareOutlineLg",
+]
 HiArrowPathRoundedSquareSolidLg = ["icondata/HiArrowPathRoundedSquareSolidLg"]
 HiArrowPathRoundedSquareSolidMd = ["icondata/HiArrowPathRoundedSquareSolidMd"]
 HiArrowPathSolidLg = ["icondata/HiArrowPathSolidLg"]
@@ -7956,13 +7974,23 @@ HiChartBarSquareSolidMd = ["icondata/HiChartBarSquareSolidMd"]
 HiChartPieOutlineLg = ["icondata/HiChartPieOutlineLg"]
 HiChartPieSolidLg = ["icondata/HiChartPieSolidLg"]
 HiChartPieSolidMd = ["icondata/HiChartPieSolidMd"]
-HiChatBubbleBottomCenterOutlineLg = ["icondata/HiChatBubbleBottomCenterOutlineLg"]
+HiChatBubbleBottomCenterOutlineLg = [
+    "icondata/HiChatBubbleBottomCenterOutlineLg",
+]
 HiChatBubbleBottomCenterSolidLg = ["icondata/HiChatBubbleBottomCenterSolidLg"]
 HiChatBubbleBottomCenterSolidMd = ["icondata/HiChatBubbleBottomCenterSolidMd"]
-HiChatBubbleBottomCenterTextOutlineLg = ["icondata/HiChatBubbleBottomCenterTextOutlineLg"]
-HiChatBubbleBottomCenterTextSolidLg = ["icondata/HiChatBubbleBottomCenterTextSolidLg"]
-HiChatBubbleBottomCenterTextSolidMd = ["icondata/HiChatBubbleBottomCenterTextSolidMd"]
-HiChatBubbleLeftEllipsisOutlineLg = ["icondata/HiChatBubbleLeftEllipsisOutlineLg"]
+HiChatBubbleBottomCenterTextOutlineLg = [
+    "icondata/HiChatBubbleBottomCenterTextOutlineLg",
+]
+HiChatBubbleBottomCenterTextSolidLg = [
+    "icondata/HiChatBubbleBottomCenterTextSolidLg",
+]
+HiChatBubbleBottomCenterTextSolidMd = [
+    "icondata/HiChatBubbleBottomCenterTextSolidMd",
+]
+HiChatBubbleLeftEllipsisOutlineLg = [
+    "icondata/HiChatBubbleLeftEllipsisOutlineLg",
+]
 HiChatBubbleLeftEllipsisSolidLg = ["icondata/HiChatBubbleLeftEllipsisSolidLg"]
 HiChatBubbleLeftEllipsisSolidMd = ["icondata/HiChatBubbleLeftEllipsisSolidMd"]
 HiChatBubbleLeftOutlineLg = ["icondata/HiChatBubbleLeftOutlineLg"]
@@ -7971,9 +7999,15 @@ HiChatBubbleLeftRightSolidLg = ["icondata/HiChatBubbleLeftRightSolidLg"]
 HiChatBubbleLeftRightSolidMd = ["icondata/HiChatBubbleLeftRightSolidMd"]
 HiChatBubbleLeftSolidLg = ["icondata/HiChatBubbleLeftSolidLg"]
 HiChatBubbleLeftSolidMd = ["icondata/HiChatBubbleLeftSolidMd"]
-HiChatBubbleOvalLeftEllipsisOutlineLg = ["icondata/HiChatBubbleOvalLeftEllipsisOutlineLg"]
-HiChatBubbleOvalLeftEllipsisSolidLg = ["icondata/HiChatBubbleOvalLeftEllipsisSolidLg"]
-HiChatBubbleOvalLeftEllipsisSolidMd = ["icondata/HiChatBubbleOvalLeftEllipsisSolidMd"]
+HiChatBubbleOvalLeftEllipsisOutlineLg = [
+    "icondata/HiChatBubbleOvalLeftEllipsisOutlineLg",
+]
+HiChatBubbleOvalLeftEllipsisSolidLg = [
+    "icondata/HiChatBubbleOvalLeftEllipsisSolidLg",
+]
+HiChatBubbleOvalLeftEllipsisSolidMd = [
+    "icondata/HiChatBubbleOvalLeftEllipsisSolidMd",
+]
 HiChatBubbleOvalLeftOutlineLg = ["icondata/HiChatBubbleOvalLeftOutlineLg"]
 HiChatBubbleOvalLeftSolidLg = ["icondata/HiChatBubbleOvalLeftSolidLg"]
 HiChatBubbleOvalLeftSolidMd = ["icondata/HiChatBubbleOvalLeftSolidMd"]
@@ -8016,7 +8050,9 @@ HiChevronUpSolidMd = ["icondata/HiChevronUpSolidMd"]
 HiCircleStackOutlineLg = ["icondata/HiCircleStackOutlineLg"]
 HiCircleStackSolidLg = ["icondata/HiCircleStackSolidLg"]
 HiCircleStackSolidMd = ["icondata/HiCircleStackSolidMd"]
-HiClipboardDocumentCheckOutlineLg = ["icondata/HiClipboardDocumentCheckOutlineLg"]
+HiClipboardDocumentCheckOutlineLg = [
+    "icondata/HiClipboardDocumentCheckOutlineLg",
+]
 HiClipboardDocumentCheckSolidLg = ["icondata/HiClipboardDocumentCheckSolidLg"]
 HiClipboardDocumentCheckSolidMd = ["icondata/HiClipboardDocumentCheckSolidMd"]
 HiClipboardDocumentListOutlineLg = ["icondata/HiClipboardDocumentListOutlineLg"]
@@ -8118,7 +8154,9 @@ HiDocumentCheckSolidMd = ["icondata/HiDocumentCheckSolidMd"]
 HiDocumentDuplicateOutlineLg = ["icondata/HiDocumentDuplicateOutlineLg"]
 HiDocumentDuplicateSolidLg = ["icondata/HiDocumentDuplicateSolidLg"]
 HiDocumentDuplicateSolidMd = ["icondata/HiDocumentDuplicateSolidMd"]
-HiDocumentMagnifyingGlassOutlineLg = ["icondata/HiDocumentMagnifyingGlassOutlineLg"]
+HiDocumentMagnifyingGlassOutlineLg = [
+    "icondata/HiDocumentMagnifyingGlassOutlineLg",
+]
 HiDocumentMagnifyingGlassSolidLg = ["icondata/HiDocumentMagnifyingGlassSolidLg"]
 HiDocumentMagnifyingGlassSolidMd = ["icondata/HiDocumentMagnifyingGlassSolidMd"]
 HiDocumentMinusOutlineLg = ["icondata/HiDocumentMinusOutlineLg"]
@@ -8133,9 +8171,15 @@ HiDocumentSolidMd = ["icondata/HiDocumentSolidMd"]
 HiDocumentTextOutlineLg = ["icondata/HiDocumentTextOutlineLg"]
 HiDocumentTextSolidLg = ["icondata/HiDocumentTextSolidLg"]
 HiDocumentTextSolidMd = ["icondata/HiDocumentTextSolidMd"]
-HiEllipsisHorizontalCircleOutlineLg = ["icondata/HiEllipsisHorizontalCircleOutlineLg"]
-HiEllipsisHorizontalCircleSolidLg = ["icondata/HiEllipsisHorizontalCircleSolidLg"]
-HiEllipsisHorizontalCircleSolidMd = ["icondata/HiEllipsisHorizontalCircleSolidMd"]
+HiEllipsisHorizontalCircleOutlineLg = [
+    "icondata/HiEllipsisHorizontalCircleOutlineLg",
+]
+HiEllipsisHorizontalCircleSolidLg = [
+    "icondata/HiEllipsisHorizontalCircleSolidLg",
+]
+HiEllipsisHorizontalCircleSolidMd = [
+    "icondata/HiEllipsisHorizontalCircleSolidMd",
+]
 HiEllipsisHorizontalOutlineLg = ["icondata/HiEllipsisHorizontalOutlineLg"]
 HiEllipsisHorizontalSolidLg = ["icondata/HiEllipsisHorizontalSolidLg"]
 HiEllipsisHorizontalSolidMd = ["icondata/HiEllipsisHorizontalSolidMd"]
@@ -9526,7 +9570,9 @@ IoEllipseOutline = ["icondata/IoEllipseOutline"]
 IoEllipseSharp = ["icondata/IoEllipseSharp"]
 IoEllipsisHorizontal = ["icondata/IoEllipsisHorizontal"]
 IoEllipsisHorizontalCircle = ["icondata/IoEllipsisHorizontalCircle"]
-IoEllipsisHorizontalCircleOutline = ["icondata/IoEllipsisHorizontalCircleOutline"]
+IoEllipsisHorizontalCircleOutline = [
+    "icondata/IoEllipsisHorizontalCircleOutline",
+]
 IoEllipsisHorizontalCircleSharp = ["icondata/IoEllipsisHorizontalCircleSharp"]
 IoEllipsisHorizontalOutline = ["icondata/IoEllipsisHorizontalOutline"]
 IoEllipsisHorizontalSharp = ["icondata/IoEllipsisHorizontalSharp"]
@@ -10418,7 +10464,9 @@ LuAlignCenterHorizontal = ["icondata/LuAlignCenterHorizontal"]
 LuAlignCenterVertical = ["icondata/LuAlignCenterVertical"]
 LuAlignEndHorizontal = ["icondata/LuAlignEndHorizontal"]
 LuAlignEndVertical = ["icondata/LuAlignEndVertical"]
-LuAlignHorizontalDistributeCenter = ["icondata/LuAlignHorizontalDistributeCenter"]
+LuAlignHorizontalDistributeCenter = [
+    "icondata/LuAlignHorizontalDistributeCenter",
+]
 LuAlignHorizontalDistributeEnd = ["icondata/LuAlignHorizontalDistributeEnd"]
 LuAlignHorizontalDistributeStart = ["icondata/LuAlignHorizontalDistributeStart"]
 LuAlignHorizontalJustifyCenter = ["icondata/LuAlignHorizontalJustifyCenter"]
@@ -12371,10 +12419,18 @@ RiCheckboxBlankSystemFill = ["icondata/RiCheckboxBlankSystemFill"]
 RiCheckboxBlankSystemLine = ["icondata/RiCheckboxBlankSystemLine"]
 RiCheckboxCircleSystemFill = ["icondata/RiCheckboxCircleSystemFill"]
 RiCheckboxCircleSystemLine = ["icondata/RiCheckboxCircleSystemLine"]
-RiCheckboxIndeterminateSystemFill = ["icondata/RiCheckboxIndeterminateSystemFill"]
-RiCheckboxIndeterminateSystemLine = ["icondata/RiCheckboxIndeterminateSystemLine"]
-RiCheckboxMultipleBlankSystemFill = ["icondata/RiCheckboxMultipleBlankSystemFill"]
-RiCheckboxMultipleBlankSystemLine = ["icondata/RiCheckboxMultipleBlankSystemLine"]
+RiCheckboxIndeterminateSystemFill = [
+    "icondata/RiCheckboxIndeterminateSystemFill",
+]
+RiCheckboxIndeterminateSystemLine = [
+    "icondata/RiCheckboxIndeterminateSystemLine",
+]
+RiCheckboxMultipleBlankSystemFill = [
+    "icondata/RiCheckboxMultipleBlankSystemFill",
+]
+RiCheckboxMultipleBlankSystemLine = [
+    "icondata/RiCheckboxMultipleBlankSystemLine",
+]
 RiCheckboxMultipleSystemFill = ["icondata/RiCheckboxMultipleSystemFill"]
 RiCheckboxMultipleSystemLine = ["icondata/RiCheckboxMultipleSystemLine"]
 RiCheckboxSystemFill = ["icondata/RiCheckboxSystemFill"]
@@ -12522,8 +12578,12 @@ RiCreativeCommonsNdBusinessFill = ["icondata/RiCreativeCommonsNdBusinessFill"]
 RiCreativeCommonsNdBusinessLine = ["icondata/RiCreativeCommonsNdBusinessLine"]
 RiCreativeCommonsSaBusinessFill = ["icondata/RiCreativeCommonsSaBusinessFill"]
 RiCreativeCommonsSaBusinessLine = ["icondata/RiCreativeCommonsSaBusinessLine"]
-RiCreativeCommonsZeroBusinessFill = ["icondata/RiCreativeCommonsZeroBusinessFill"]
-RiCreativeCommonsZeroBusinessLine = ["icondata/RiCreativeCommonsZeroBusinessLine"]
+RiCreativeCommonsZeroBusinessFill = [
+    "icondata/RiCreativeCommonsZeroBusinessFill",
+]
+RiCreativeCommonsZeroBusinessLine = [
+    "icondata/RiCreativeCommonsZeroBusinessLine",
+]
 RiCriminalUserFacesFill = ["icondata/RiCriminalUserFacesFill"]
 RiCriminalUserFacesLine = ["icondata/RiCriminalUserFacesLine"]
 RiCrop2DesignFill = ["icondata/RiCrop2DesignFill"]
@@ -13004,20 +13064,32 @@ RiGiftFinanceFill = ["icondata/RiGiftFinanceFill"]
 RiGiftFinanceLine = ["icondata/RiGiftFinanceLine"]
 RiGitBranchDevelopmentFill = ["icondata/RiGitBranchDevelopmentFill"]
 RiGitBranchDevelopmentLine = ["icondata/RiGitBranchDevelopmentLine"]
-RiGitClosePullRequestDevelopmentFill = ["icondata/RiGitClosePullRequestDevelopmentFill"]
-RiGitClosePullRequestDevelopmentLine = ["icondata/RiGitClosePullRequestDevelopmentLine"]
+RiGitClosePullRequestDevelopmentFill = [
+    "icondata/RiGitClosePullRequestDevelopmentFill",
+]
+RiGitClosePullRequestDevelopmentLine = [
+    "icondata/RiGitClosePullRequestDevelopmentLine",
+]
 RiGitCommitDevelopmentFill = ["icondata/RiGitCommitDevelopmentFill"]
 RiGitCommitDevelopmentLine = ["icondata/RiGitCommitDevelopmentLine"]
 RiGitMergeDevelopmentFill = ["icondata/RiGitMergeDevelopmentFill"]
 RiGitMergeDevelopmentLine = ["icondata/RiGitMergeDevelopmentLine"]
 RiGitPullRequestDevelopmentFill = ["icondata/RiGitPullRequestDevelopmentFill"]
 RiGitPullRequestDevelopmentLine = ["icondata/RiGitPullRequestDevelopmentLine"]
-RiGitRepositoryCommitsDevelopmentFill = ["icondata/RiGitRepositoryCommitsDevelopmentFill"]
-RiGitRepositoryCommitsDevelopmentLine = ["icondata/RiGitRepositoryCommitsDevelopmentLine"]
+RiGitRepositoryCommitsDevelopmentFill = [
+    "icondata/RiGitRepositoryCommitsDevelopmentFill",
+]
+RiGitRepositoryCommitsDevelopmentLine = [
+    "icondata/RiGitRepositoryCommitsDevelopmentLine",
+]
 RiGitRepositoryDevelopmentFill = ["icondata/RiGitRepositoryDevelopmentFill"]
 RiGitRepositoryDevelopmentLine = ["icondata/RiGitRepositoryDevelopmentLine"]
-RiGitRepositoryPrivateDevelopmentFill = ["icondata/RiGitRepositoryPrivateDevelopmentFill"]
-RiGitRepositoryPrivateDevelopmentLine = ["icondata/RiGitRepositoryPrivateDevelopmentLine"]
+RiGitRepositoryPrivateDevelopmentFill = [
+    "icondata/RiGitRepositoryPrivateDevelopmentFill",
+]
+RiGitRepositoryPrivateDevelopmentLine = [
+    "icondata/RiGitRepositoryPrivateDevelopmentLine",
+]
 RiGithubLogosFill = ["icondata/RiGithubLogosFill"]
 RiGithubLogosLine = ["icondata/RiGithubLogosLine"]
 RiGitlabLogosFill = ["icondata/RiGitlabLogosFill"]
@@ -13172,8 +13244,12 @@ RiIndeterminateCircleSystemFill = ["icondata/RiIndeterminateCircleSystemFill"]
 RiIndeterminateCircleSystemLine = ["icondata/RiIndeterminateCircleSystemLine"]
 RiInformationSystemFill = ["icondata/RiInformationSystemFill"]
 RiInformationSystemLine = ["icondata/RiInformationSystemLine"]
-RiInfraredThermometerHealthMedicalFill = ["icondata/RiInfraredThermometerHealthMedicalFill"]
-RiInfraredThermometerHealthMedicalLine = ["icondata/RiInfraredThermometerHealthMedicalLine"]
+RiInfraredThermometerHealthMedicalFill = [
+    "icondata/RiInfraredThermometerHealthMedicalFill",
+]
+RiInfraredThermometerHealthMedicalLine = [
+    "icondata/RiInfraredThermometerHealthMedicalLine",
+]
 RiInkBottleDesignFill = ["icondata/RiInkBottleDesignFill"]
 RiInkBottleDesignLine = ["icondata/RiInkBottleDesignLine"]
 RiInputCursorMoveEditor = ["icondata/RiInputCursorMoveEditor"]
@@ -13393,8 +13469,12 @@ RiMedal2BusinessFill = ["icondata/RiMedal2BusinessFill"]
 RiMedal2BusinessLine = ["icondata/RiMedal2BusinessLine"]
 RiMedalBusinessFill = ["icondata/RiMedalBusinessFill"]
 RiMedalBusinessLine = ["icondata/RiMedalBusinessLine"]
-RiMedicineBottleHealthMedicalFill = ["icondata/RiMedicineBottleHealthMedicalFill"]
-RiMedicineBottleHealthMedicalLine = ["icondata/RiMedicineBottleHealthMedicalLine"]
+RiMedicineBottleHealthMedicalFill = [
+    "icondata/RiMedicineBottleHealthMedicalFill",
+]
+RiMedicineBottleHealthMedicalLine = [
+    "icondata/RiMedicineBottleHealthMedicalLine",
+]
 RiMediumLogosFill = ["icondata/RiMediumLogosFill"]
 RiMediumLogosLine = ["icondata/RiMediumLogosLine"]
 RiMegaphoneBusinessFill = ["icondata/RiMegaphoneBusinessFill"]
@@ -13705,8 +13785,12 @@ RiQrScan2DeviceFill = ["icondata/RiQrScan2DeviceFill"]
 RiQrScan2DeviceLine = ["icondata/RiQrScan2DeviceLine"]
 RiQrScanDeviceFill = ["icondata/RiQrScanDeviceFill"]
 RiQrScanDeviceLine = ["icondata/RiQrScanDeviceLine"]
-RiQuestionAnswerCommunicationFill = ["icondata/RiQuestionAnswerCommunicationFill"]
-RiQuestionAnswerCommunicationLine = ["icondata/RiQuestionAnswerCommunicationLine"]
+RiQuestionAnswerCommunicationFill = [
+    "icondata/RiQuestionAnswerCommunicationFill",
+]
+RiQuestionAnswerCommunicationLine = [
+    "icondata/RiQuestionAnswerCommunicationLine",
+]
 RiQuestionMarkEditor = ["icondata/RiQuestionMarkEditor"]
 RiQuestionSystemFill = ["icondata/RiQuestionSystemFill"]
 RiQuestionSystemLine = ["icondata/RiQuestionSystemLine"]
@@ -18524,7 +18608,9 @@ TbDeviceIpadHorizontalCode = ["icondata/TbDeviceIpadHorizontalCode"]
 TbDeviceIpadHorizontalCog = ["icondata/TbDeviceIpadHorizontalCog"]
 TbDeviceIpadHorizontalDollar = ["icondata/TbDeviceIpadHorizontalDollar"]
 TbDeviceIpadHorizontalDown = ["icondata/TbDeviceIpadHorizontalDown"]
-TbDeviceIpadHorizontalExclamation = ["icondata/TbDeviceIpadHorizontalExclamation"]
+TbDeviceIpadHorizontalExclamation = [
+    "icondata/TbDeviceIpadHorizontalExclamation",
+]
 TbDeviceIpadHorizontalHeart = ["icondata/TbDeviceIpadHorizontalHeart"]
 TbDeviceIpadHorizontalMinus = ["icondata/TbDeviceIpadHorizontalMinus"]
 TbDeviceIpadHorizontalOff = ["icondata/TbDeviceIpadHorizontalOff"]
@@ -20493,15 +20579,23 @@ TbSquareRoundedChevronDownFilled = ["icondata/TbSquareRoundedChevronDownFilled"]
 TbSquareRoundedChevronLeft = ["icondata/TbSquareRoundedChevronLeft"]
 TbSquareRoundedChevronLeftFilled = ["icondata/TbSquareRoundedChevronLeftFilled"]
 TbSquareRoundedChevronRight = ["icondata/TbSquareRoundedChevronRight"]
-TbSquareRoundedChevronRightFilled = ["icondata/TbSquareRoundedChevronRightFilled"]
+TbSquareRoundedChevronRightFilled = [
+    "icondata/TbSquareRoundedChevronRightFilled",
+]
 TbSquareRoundedChevronUp = ["icondata/TbSquareRoundedChevronUp"]
 TbSquareRoundedChevronUpFilled = ["icondata/TbSquareRoundedChevronUpFilled"]
 TbSquareRoundedChevronsDown = ["icondata/TbSquareRoundedChevronsDown"]
-TbSquareRoundedChevronsDownFilled = ["icondata/TbSquareRoundedChevronsDownFilled"]
+TbSquareRoundedChevronsDownFilled = [
+    "icondata/TbSquareRoundedChevronsDownFilled",
+]
 TbSquareRoundedChevronsLeft = ["icondata/TbSquareRoundedChevronsLeft"]
-TbSquareRoundedChevronsLeftFilled = ["icondata/TbSquareRoundedChevronsLeftFilled"]
+TbSquareRoundedChevronsLeftFilled = [
+    "icondata/TbSquareRoundedChevronsLeftFilled",
+]
 TbSquareRoundedChevronsRight = ["icondata/TbSquareRoundedChevronsRight"]
-TbSquareRoundedChevronsRightFilled = ["icondata/TbSquareRoundedChevronsRightFilled"]
+TbSquareRoundedChevronsRightFilled = [
+    "icondata/TbSquareRoundedChevronsRightFilled",
+]
 TbSquareRoundedChevronsUp = ["icondata/TbSquareRoundedChevronsUp"]
 TbSquareRoundedChevronsUpFilled = ["icondata/TbSquareRoundedChevronsUpFilled"]
 TbSquareRoundedFilled = ["icondata/TbSquareRoundedFilled"]
@@ -21433,11 +21527,15 @@ VsDebugAll = ["icondata/VsDebugAll"]
 VsDebugAlt = ["icondata/VsDebugAlt"]
 VsDebugAltSmall = ["icondata/VsDebugAltSmall"]
 VsDebugBreakpointConditional = ["icondata/VsDebugBreakpointConditional"]
-VsDebugBreakpointConditionalUnverified = ["icondata/VsDebugBreakpointConditionalUnverified"]
+VsDebugBreakpointConditionalUnverified = [
+    "icondata/VsDebugBreakpointConditionalUnverified",
+]
 VsDebugBreakpointData = ["icondata/VsDebugBreakpointData"]
 VsDebugBreakpointDataUnverified = ["icondata/VsDebugBreakpointDataUnverified"]
 VsDebugBreakpointFunction = ["icondata/VsDebugBreakpointFunction"]
-VsDebugBreakpointFunctionUnverified = ["icondata/VsDebugBreakpointFunctionUnverified"]
+VsDebugBreakpointFunctionUnverified = [
+    "icondata/VsDebugBreakpointFunctionUnverified",
+]
 VsDebugBreakpointLog = ["icondata/VsDebugBreakpointLog"]
 VsDebugBreakpointLogUnverified = ["icondata/VsDebugBreakpointLogUnverified"]
 VsDebugBreakpointUnsupported = ["icondata/VsDebugBreakpointUnsupported"]
